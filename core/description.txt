@@ -1,7 +1,9 @@
-Core Description(VM 0)
+VM0 Description (Core)
 
 Settings not listed here => defaults values were used.
 
+VM0
+	ip: 10.0.2.4
 
 Core:
 	amf:
