@@ -1,10 +1,10 @@
-VM1 Description
+VM2 Description
 
 Settings not listed here => defaults values were used.
 
 
 VM1 
-	ip: 10.0.2.15
+	ip: 10.0.2.6
 
 
 Components:
@@ -14,9 +14,9 @@ Components:
 gNodeB:
 	mcc: '901'          # Mobile Country Code value
 	mnc: '70'           # Mobile Network Code value (2 or 3 digits)
-	tac: 1              # Tracking Area Code
+	tac: 2              # Tracking Area Code
 	
-	ip: 10.0.2.15
+	ip: 10.0.2.6
 	amfConfig:
 		address: 10.0.2.4
 		port:	 38412
@@ -46,7 +46,7 @@ Example UE:
 
 	# List of gNB IP addresses for Radio Link Simulation
 	gnbSearchList:
-	  - 10.0.2.15
+	  - 10.0.2.6
 
 	# Initial PDU sessions to be established
 	sessions:
